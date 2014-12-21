@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Planetjägaren</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="hello_world">Hej Jorden!</string>
+    
+  	<string name="number">Hittade planeter</string>
+  <string name="sort_prompt">Sotera efter</string>
+
+    <string-array name="sort_arrays">
+        <item>Sortera inte</item>
+       
+        <item>Avstånd (från jorden)</item>
+         <item>Beboelighet</item>
+        <item>Massa</item>
+        <item>Upptäckts år</item>
+        
+        </string-array>
+        
+
+    
+    
+    <string name="search">Planetsökning</string>
+      <string name="bsearch">Sök</string>
+      <string name="somethingelse">Vänta..</string>
+       <string name="home">Huvudmenu</string>
+    <string name="back">Tillbacka</string>
+    
+      <string name="mass_prompt">Mass Klass</string>
+ 
+    <string-array name="mass_arrays">
+         <item>Sök på allt</item>
+        <item>Jovian (Gasjätte)</item>
+        <item>Neptunian</item>
+        <item>Super-jord</item>
+        <item>Jord</item>
+        <item>Mercurian</item>
+    </string-array>
+    
+      <string name="comp_prompt">Sammansättning</string>
+ 
+    <string-array name="comp_arrays">
+         <item>Sök på allt</item>
+        <item>Gas</item>
+        <item>Gas-vatten</item>
+        <item>Sten-vatten</item>
+        <item>Sten-järn</item>
+        <item>Järn</item>
+    </string-array>
+    
+      <string name="atmos_prompt">Atmosfär</string>
+ 
+    <string-array name="atmos_arrays">
+         <item>Sök på allt</item>
+        <item>Väterik</item>
+        <item>Metallrik</item>
+        <item>Ingen</item>
+        
+    </string-array>
+    <string name="temp_prompt">Temperatur zon</string>
+ 
+    <string-array name="temp_arrays">
+         <item>Sök på allt</item>
+        <item>Varm</item>
+        <item>Beboelig</item>
+        <item>Kall</item>
+        
+    </string-array>
+  <string name="disc_prompt">Upptäktsmethod</string>
+ 
+    <string-array name="disc_arrays">
+        <item>Sök på allt</item>
+        <item>Dopplerspektroskopi</item>
+        <item>Transitmetoden</item>
+        <item>Gravitationslins</item>
+         <item>Astrometri</item>
+        <item>Pulsartiming</item>
+  		<item>Teleskop</item>
+    </string-array>
+    <string name="lightyears_prompt">Avstånd</string>
+ 
+    <string-array name="lightyears_arrays">
+        <item>Sök på allt</item>
+        <item>mindre än 20 ljusår</item>
+        <item>mindre än 200 ljusår</item>
+        <item>mindre än 2000 ljusår</item>
+        <item>mindre än 20000 ljusår</item>
+        
+  
+    </string-array>
+ 
+ 
+   <string-array name="massinfo">
+         <item>Planeten är av typen Mercurian vilket innebär att den har likande massa som vårat solsystems minsta planeter t.e.x Merkurius.</item>
+         <item>Planeten är av typen terrestrisk vilket innebär att den har likande massa som vårat solsystems inre planeter Mars, Venus och Jorden. </item>
+         <item>Planeten är av typen terrestrisk vilket innebär att den har likande massa som vårat solsystems inre planeter Mars, Venus och Jorden. </item>
+         <item>Planeten är av typen Super-terrestrisk vilket innebär att dess massa är större än Jordens men betydligt mindre än vårat solsystems mindre gasjättar Uranus och Neptunus. </item>
+         <item>Planeten är av typen Neptunian vilket innebär att dess massa är i samma storleks ordning som vårat solsystems mindre gasjättar Uranus och Neptunus. </item>
+         <item>Planeten är av typen Jovian vilket innebär att planeten är en jätte som Jupiter eller Saturnus. </item>
+    </string-array>
+    
+   
+    <string-array name="compinfo">
+         <item> Planeten består av gas.</item>
+         <item> Planeten består mestadels av gasformig eller flytande materia. </item>
+         <item> Planeten har en fast yta i form utav en sten skorpa där även flytande vatten kan förekomma.</item>
+         <item> Planeten har en fast yta i form utav en sten skorpa och är rik på järn.</item>
+         <item> Planeten har en fast yta och dess kärna består utav järn.</item>
+    </string-array>
+    
+     <string-array name="atmosinfo">
+         <item> Atmosfären är rik på väte.</item>
+         <item> Atmosfären är rik på metaller. </item>
+         <item> Planeten Saknar Atmosfär</item>
+        
+    </string-array>
+    
+      <string-array name="discinfo">
+         <item>Upptäkten gjordes med hjälp utav Dopplerspektroskopi, d.v.s genom att mäta förändringen av frekvensen (svängningstalet) av stjärnans ljus.</item>
+         <item>Upptäkten gjordes med hjälp utav Transitmetoden, d.v.s genom att mäta förändringar av stjärnans ljusstyrka när planeten passerar framför den.</item>
+         <item>Upptäkten gjordes med hjälp utav gravitationslins, d.v.s genom att mäta hur stjärnans ljus böjs i gravitationsfältet på sin väg till oss.</item>
+         <item>Upptäkten gjordes med hjälp utav ett teleskop.</item>
+       	 <item>Upptäkten gjordes med hjälp utav Astrometri, d.v.s genom att mäta stjärnans position och dess rörelser med hög precision.</item>
+      	 <item>Planeten kretsar runt snabbt roterande neutronstjärnor så kallade pulsar och kunde därför upptäckas med hjälp utav Pulsartiming.</item>
+    </string-array>
+  
+    <string name="des">fallande</string>
+	    <string name="asc">stigande</string>
+    
+	 <string-array name="HZA">
+      	 <item> Planeten har en atmosfär som skulle kunna vara lämplig för liv. </item>
+      	 <item> Planeten saknar atmosfär. </item>
+      	 <item> Planetens atmosfär är olämplig för liv. </item>
+    </string-array>
+     <string-array name="HZD">
+      	 <item> Planeten ligger i solsystemets beboeliga zon där liv ska kunna existera. </item>
+      	 <item> Planeten ligger för nära sin sol för att liv ska kunna existera. </item>
+      	 <item> Planeten ligger för långt bort från sin sol för att liv ska kunna existera. </item>
+    </string-array>
+    
+	
+  <string-array name="decMean">
+      	 <item> Planeten ligger på ett avstånd från sin stjärna som motsvarar </item>
+      	 <item> gånger avståndet mellan jorden och solen. </item>
+   </string-array>
+
+
+  <string-array name="decFormatdist">
+      	 <item> på ett avstånd utav  </item>
+      	 <item> ljusår från jorden. </item>
+   </string-array>
+
+
+  <string-array name="planetname">
+      	 <item> Planeten heter </item>
+      	 <item> och roterar runt stjärnan </item>
+      	 <item> som ligger i stjärnbilden </item>
+   </string-array>
+
+			
+ <string-array name="starname">
+      	 <item> Stjärnan heter </item>
+      	 <item> och ligger i stjärnbilden </item>
+      	 <item> som ligger i stjärnbilden  </item>
+   </string-array>
+
+ <string-array name="orbit">
+      	 <item> Det tar </item>
+      	 <item> dagar för planeten att rotera ett varv runt sin sol. </item>
+   </string-array>
+
+
+<string-array name="mag">
+      	 <item> Stjärnan är synlig från jorden med blotta ögat.</item>
+      	 <item> Stjärnan kan inte ses från jorden utan ett teleskop. </item>
+   </string-array>
+
+
+<string name="moon">Det är möjligt att planeten kan han ha en beboelig måne.</string>
+<string name="disc">Planeten upptäcktes år: </string>
+
+<string-array name="meantemp">
+      	 <item> Planetens medeltempratur är </item>
+      	 <item> En varm dag på </item>
+      	  <item> är temperaturen </item>
+      	  <item> °C och en kall dag på  </item>
+      	  <item> är det </item>
+   </string-array>
+
+<string-array name="habzone">
+      	 <item> Stjärnans beboeliga zon ligger på ett avstånd mellan </item>
+      	  <item> och </item>
+      	 <item> gånger avståndet mellan jorden och solen. </item>
+      
+   </string-array>
+
+
+<string-array name="numberplanets">
+      	 <item> Stjärnan har en känd planet som ligger i den beboeliga zonen </item>
+      	 <item> Stjärnan har </item>
+     	 <item> kända planeter och har </item>
+      	 <item> planeter som ligger i den beboeliga zonen. </item>
+      	 <item> kända planeter men har inga kända planeter som ligger i den beboeliga zonen.</item>
+       	 <item> Stjärnan har en känd planet men den ligger inte i den beboeliga zonen.</item>
+   </string-array>
+   
+
+<string-array name="color">
+      	 <item> blå </item>
+      	 <item> blåvit </item>
+     	 <item> orange-röd </item>
+      	 <item> röd</item>
+      </string-array>
+
+
+
+    <string-array name="lum">
+      	 <item> hyperjätte </item>
+      	 <item> superjätte </item>
+     	 <item> ljusjätte </item>
+      	 <item> jätte </item>
+      	 <item> subjätte </item>
+      	 <item> dvärg </item>
+      	 <item> subdvärg </item>
+      	 <item> vit dvärg </item>
+      	 <item> pulsar </item>
+      </string-array>  
+     <string name="earth"> Jordens </string>
+        <string name="sun">Solens</string>
+        <string name="error">Anslutnings problem! Datan kunde inte laddas ner.</string>
+        <string name="age">miljarder år</string>
+       <string-array name="type">
+      	 <item> Stjärna har exploderat det ända som återstår är små, tunga och mycket snabbt roterande himlakroppar så kallade pulsarer. </item>
+      	 <item> Stjärnan har en </item>
+     	 <item> färg och är av stjärntypen  </item>
+      	</string-array> 
+
+ <string-array name="constellation">
+		<item>Andromeda</item>
+       <item>Luftpumpen</item>
+       <item>Vattumannen</item>
+        <item>Paradisfågeln</item>
+        <item>Örnen</item>
+       <item>Väduren</item>
+        <item>Altaret</item>
+       <item>Kusken</item>
+       <item>Björnvaktaren</item>
+        <item>Gravstickeln</item>
+       <item>Giraffen</item>
+        <item>Kräftan</item>
+        <item>Jakthundarna</item>
+        <item>Stora hunden</item>
+        <item>Lilla hunden</item>
+        <item>Stenbocken</item>
+        <item>Kölen</item>
+        <item>Cassiopeja</item>
+        <item>Kentauren</item>
+        <item>Cepheus</item>
+       <item>Valfisken</item>
+       <item>Kameleonten</item>
+        <item>Cirkelpassaren</item>
+        <item>Duvan</item>
+        <item>Berenikes hår</item>
+       <item>Södra kronan</item>
+        <item>Norra kronan</item>
+        <item>Korpen</item>
+        <item>Bägaren</item>
+        <item>Södra korset</item>
+        <item>Svanen</item>
+  		 <item>Delfinen</item>
+        <item>Svärdfisken</item>
+		<item>Draken</item>
+        <item>Lilla hästen</item>
+        <item>Floden Eridanus</item>
+        <item>Ugnen</item>
+       <item>Tvillingarna</item>
+        <item>Tranan</item>
+       <item>Herkules</item>
+        <item>Pendeluret</item>
+        <item>Vattenormen</item>
+       <item>Lilla vattenormen</item>
+        <item>Indianen</item>
+        <item>Lacerta</item>
+        <item>Lejonet</item>
+	<item>Lilla lejonet</item>
+        <item>Haren</item>
+        <item>Vågen</item>
+        <item>Vargen</item>
+        <item>Lodjuret</item>
+        <item>Lyran</item>
+        <item>Taffelberget</item>
+        <item>Mikroskopet</item>
+        <item>Enhörningen</item>;
+        <item>Flugan</item>
+        <item>Vinkelhaken</item>
+		  <item>Oktanten</item>
+        <item>Ormbäraren</item>
+        <item>Orion</item>
+        <item>Påfågeln</item>
+       <item>Pegasus</item>
+        <item>Perseus</item>
+        <item>Fenix</item>
+        <item>Målaren</item>
+        <item>Fiskarna</item>
+        <item>Södra fisken</item>
+        <item>Akterskeppet</item>
+       <item>Kompassen</item>
+       <item>Rombiska nätet</item>
+        <item>Pilen</item>
+        <item>Skytten</item>
+        <item>Skorpionen</item>
+        <item>Bildhuggaren</item>
+        <item>Skölden</item>
+        <item>Ormen</item>
+        <item>Sextanten</item>
+        <item>Oxen</item>
+        <item>Kikaren</item>
+       <item>Triangeln</item>
+       <item>Södra triangeln</item>
+        <item>Tukanen</item>
+         <item>Stora björnen</item>
+        <item>Lilla björnen</item>
+		<item>Seglet</item>
+        <item>Jungfrun</item>
+        <item>Flygfisken</item>
+        <item>Räven</item>
+       </string-array>  
+        
+     <string-array name="menu">
+		<item>Planetlista</item>
+       	<item>Jordlika Planeter</item>
+       	<item>Stjärnbilder</item>
+        <item>Stjärnkarta</item>
+		<item>Sök</item>
+		 </string-array>
+		 
+      <string-array name="habmenu">
+   		<item>Beboliga Planeter</item>
+       	<item>kallt (-50-0°C)</item>
+       	<item>Normal Temperatur(0–50°C)</item>
+        <item>Varmt(50–100°C)</item>
+		<item>Liknar Jorden (ESI index)</item>
+		<item>Lämpad för växlighet (SPH index)</item>
+		
+<item>Kandidater för beboliga månar</item>
+
+    </string-array>
+     
+    <string name="show">Visa Fler</string>    
+   <string name="esiratings">Liknar Jorden (ESI index):</string>
+<string name="sphratings">Lämpad för växlighet (SPH index):</string>
+<string name="massinfo">Massa</string>
+
+<string name="radieinfo">Radie</string>
+
+<string name="densinfo">Densitet</string>
+<string name="gravinfo">Gravitation</string>
+<string name="atmosinfo">Atmosfäriskt tryck</string>
+<string name="flyktinfo">Flykthastig</string>
+<string name="luminfo">Luminositet</string>
+<string name="ageinfo">Ålder</string>
+<string name="tempinfo">Temperatur</string>
+<string name="Metallinfo">Metallicitet</string>
+ 
+<string name="visitplanets">Besök Stjärnans Planeter</string>
+<string name="visitsolar">Visa Solsystemet</string>
+<string name="visitcon">Besök Stjärnans Tecken</string>
+<string name="visitstar">Besök Planetens Stjärna</string>
+<string name="starlist">Stjärnor i </string>
+
+<string name="nostar">Inga stjärnor hittades.</string>
+<string name="noplanets">Inga planeter hittades. </string>
+<string name="nodata">Ingen data. </string>
+<string name="habzone">ligger i den beboliga zonen</string>
+<string name="solarsystem">Solsystemet</string>
+   <string name="check3D">3D</string>
+   <string name="check2D">2D</string>
+      <string-array name="ourPlanets">
+    <item>Mercurius</item>
+    <item>Venus</item>
+    <item>Tellus</item>
+    <item>Mars</item>
+    <item>Jupiter</item>
+    <item>Saturnus</item>
+	<item>Uranus</item>
+    <item>Neptunus</item>
+     </string-array>
+     <string name="oursun">Solen</string> 
+       <string name="explore">Hitta Planeter</string> 
+       <string name="gps">GPS Aktiverat</string>
+</resources>

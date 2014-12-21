@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+   
+
+  
+ <ListView
+     android:id="@+id/list"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+  
+     android:layout_marginTop="60dp"
+     android:layout_marginBottom="80dp" >
+
+  </ListView>
+  
+		<EditText
+             android:id="@+id/editView"
+             android:layout_width="fill_parent"
+    		 android:layout_height="45dp"
+    		 android:imeOptions="actionSearch" 
+    		 android:inputType="text"
+    		 />
+        
+   
+      <Button
+        	android:id="@+id/button1"
+        	android:layout_width="fill_parent"
+        	android:layout_height="45dp"
+      		android:layout_alignParentBottom="true"
+    		android:background="@drawable/button"
+        	android:text="@string/show" />
+
+</RelativeLayout>

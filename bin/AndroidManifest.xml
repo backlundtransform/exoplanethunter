@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.varoid.exoplanethunter"
+    android:versionCode="13"
+    android:versionName="1.57" >
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+   <uses-permission android:name="android.permission.INTERNET" />
+    
+    
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+      android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher_web"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock"
+        android:largeHeap="true"
+         >
+        
+        
+         <activity
+            android:name="com.varoid.exoplanethunter.Splash"
+            android:label="@string/app_name" >
+            
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.varoid.exoplanethunter.Menu"
+            android:label="@string/app_name" >
+            
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.varoid.exoplanethunter.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.exoplanethunter.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.varoid.exoplanethunter.Starmap"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.exoplanethunter.STARMAP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.varoid.exoplanethunter.Planet"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.exoplanethunter.PLANET" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.varoid.exoplanethunter.Habitable"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.exoplanethunter.HABITABLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       
+         <activity
+            android:name="com.varoid.exoplanethunter.Sort"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.exoplanethunter.SORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          
+        
+             <activity
+            android:name="com.varoid.exoplanethunter.Constellationlist"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.exoplanethunter.CONSTELLATIONLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+             <activity
+            android:name="com.varoid.exoplanethunter.Staractivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.exoplanethunter.STARACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+     <activity
+            android:name="com.varoid.exoplanethunter.Star"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.exoplanethunter.STAR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.varoid.exoplanethunter.Planetsun"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.exoplanethunter.PLANETSUN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.varoid.exoplanethunter.Search"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.exoplanethunter.SEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.varoid.exoplanethunter.Orbit"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.varoid.exoplanethunter.ORBIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+          
+          <activity
+            android:name="com.varoid.exoplanethunter.MyApplication"
+            android:label="@string/app_name" >
+            
+        </activity>
+        
+          <activity
+            android:name="com.varoid.exoplanethunter.GPS"
+            android:label="@string/app_name" 
+            android:configChanges="orientation|keyboardHidden" 
+            
+            >
+            <intent-filter>
+                <action android:name="com.varoid.exoplanethunter.GPS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+          
+    </application>
+
+</manifest>

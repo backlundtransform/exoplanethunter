@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+  
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView1"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+         <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mass_prompt" />
+
+    <Spinner
+        android:id="@+id/masspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:entries="@array/mass_arrays"
+        android:prompt="@string/mass_prompt" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comp_prompt" />
+
+    <Spinner
+        android:id="@+id/Sammansattningspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:entries="@array/comp_arrays"
+        android:prompt="@string/comp_prompt"
+         />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/atmos_prompt" />
+
+    <Spinner
+        android:id="@+id/Atmosfarspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/atmos_arrays"
+        android:prompt="@string/atmos_prompt"  />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temp_prompt" />
+
+    <Spinner
+        android:id="@+id/tempspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:entries="@array/temp_arrays"
+        android:prompt="@string/temp_prompt" />
+       <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disc_prompt" />
+
+    <Spinner
+        android:id="@+id/discspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:entries="@array/disc_arrays"
+        android:prompt="@string/disc_prompt" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lightyears_prompt" />
+
+   
+    <Spinner
+        android:id="@+id/lightyearspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:entries="@array/lightyears_arrays"
+        android:prompt="@string/lightyears_prompt" />
+
+  
+<TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sortera efter" />
+    
+     <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/sort_arrays"
+        android:prompt="@string/sort_prompt" />
+    <RadioGroup
+        android:id="@+id/radiosort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+ 
+        <RadioButton
+            android:id="@+id/radioAsc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/asc" 
+            android:checked="true" />
+ 
+        <RadioButton
+            android:id="@+id/radioDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/des" />
+ 
+    </RadioGroup>
+    
+  
+</LinearLayout>
+    </ScrollView> 
+
+    
+ 
+

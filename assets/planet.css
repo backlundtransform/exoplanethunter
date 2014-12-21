@@ -1,0 +1,17 @@
+     body
+      { 
+   background: #000 url('star.png') ; background-repeat: repeat; background-position: top left; background-attachment: scroll; 
+       }
+    
+            
+    .maxorbit {
+        stroke : #ff0004;
+        fill : none;
+      }
+
+.minorbit {
+        stroke : #0065ff;
+        fill : none;
+      }  
+
+ 

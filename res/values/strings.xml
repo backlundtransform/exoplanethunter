@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Exoplanet Hunter</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="system_prompt">Sort</string>
+ 	<string name="number">Confirmed planets</string>
+    <string name="home">Main menu</string>
+    <string name="back">Back</string>
+    <string name="somethingelse">Please wait..</string>
+    <string name="sort_prompt">Sort</string>
+ 
+    <string-array name="sort_arrays">
+        <item>None</item>
+        <item>Distance</item>
+        <item>Habitable</item>
+        <item>Mass</item>
+        <item>Discovery year</item>
+     
+    </string-array>
+    
+    
+    
+      <string name="search">Planet Search</string>
+      <string name="bsearch">Search</string>
+      <string name="mass_prompt">Mass class</string>
+ 
+    <string-array name="mass_arrays">
+         <item>Search all</item>
+        <item>Jovian</item>
+        <item>Neptunian</item>
+        <item>Super-Earth</item>
+        <item>Earth</item>
+        <item>Mercurian</item>
+    </string-array>
+    
+      <string name="comp_prompt">Composition</string>
+ 
+    <string-array name="comp_arrays">
+         <item>Search all</item>
+        <item>Gas</item>
+        <item>Gas-water</item>
+        <item>Rocky-water</item>
+        <item>Rocky-iron</item>
+        <item>Iron</item>
+    </string-array>
+    
+      <string name="atmos_prompt">Atmosphere</string>
+ 
+    <string-array name="atmos_arrays">
+         <item>Search all</item>
+        <item>Hydrogen-rich</item>
+        <item>Metal-rich</item>
+        <item>None</item>
+        
+    </string-array>
+    <string name="temp_prompt">Temperature zon</string>
+ 
+    <string-array name="temp_arrays">
+         <item>Search all</item>
+        <item>Hot</item>
+        <item>Varm</item>
+        <item>Cold</item>
+        
+    </string-array>
+  <string name="disc_prompt">Discovery-method</string>
+ 
+    <string-array name="disc_arrays">
+        <item>Search all</item>
+        <item>Radial velocity</item>
+        <item>Transiting</item>
+        <item>Micro lensing</item>
+         <item>Astrometry</item>
+        <item>Pulsar timing</item>
+        <item>Imaging</item>
+  
+    </string-array>
+    <string name="lightyears_prompt">Distance</string>
+ 
+    <string-array name="lightyears_arrays">
+        <item>Search all</item>
+        <item>less than 20 light years</item>
+        <item>less than  200 light years</item>
+        <item>less than  2000 light years</item>
+        <item>less than  20000 light years</item>
+        
+  
+    </string-array>
+ 
+ 
+  
+ <string-array name="massinfo">
+         <item> The planet is of the type Mercurian, which means that it has a similar mass like our solar systems smallests planets e.g Mercury. </item>
+         <item> The planet is of the type terrestrial, which means that it has a similar mass like our solar systems inner planets March, Venus and Earth. </item>
+         <item> The planet is of the type terrestrial, which means that it has a similar mass like our solar systems inner planets March, Venus and Earth.  </item>
+         <item> The planet is of the type Super-terrestrial, which means that its mass is larger than Earth, but is considerably smaller than our solar systems smaller gas giants Uranus and Neptune. </item>
+         <item> The planet is of the type Neptunian, which means that it has a similar mass like our solar systems smaller gas giants Uranus and Neptune. </item>
+         <item> The planet is of the type Jovian, which means that the planet is a giant like Jupiter or Saturn. </item>
+    </string-array>
+    
+   
+    <string-array name="compinfo">
+         <item> The planet consists of gas. </item>
+         <item> The planet is composed mostly of gaseous or liquid matter. </item>
+         <item> The planet has a solid stone surface, where even liquid water may be present. </item>
+         <item> The planet has a solid stone surface, which is rich in iron. </item>
+         <item> The planet surface is solid and the core is made of iron. </item>
+    </string-array>
+    
+     <string-array name="atmosinfo">
+         <item> The planet has a hydrogen-rich atmosphere. </item>
+         <item> The planet has a metal-rich atmosphere. </item>
+         <item> The planet has no atmosphere. </item>
+        
+    </string-array>
+
+	<string-array name="discinfo">
+         <item>It was first detected by radial velocity, that is done by recording variations in the color of light from the host star.</item>
+         <item>It was first detected by the transit method, that is based on the observation of a stars small drop in brightness, that occurs when the planet orbit the star</item>
+         <item>It was first detected by microlensing, that is based on the observation of the bending of light due to the gravitational field.</item>
+         <item>It was first detected by a telescope.</item>
+       	 <item>It was first detected by astrometry, that involves precise measurements of the positions and movements of stars.</item>
+      	 <item>The planet is orbiting a neutron star and was detected by pulsar timing.</item>
+    </string-array>
+    
+
+	
+	<string name="des">descending</string>
+	    <string name="asc">ascending</string>
+
+<string-array name="HZA">
+      	 <item> The planet has an atmosphere that could be suitable for life. </item>
+      	 <item> The planet has no atmosphere. </item>
+      	 <item> The planet has an atmosphere, but it is not suitable for life. </item>
+    </string-array>
+    
+ <string-array name="HZD">
+      	 <item> The planet is within the its solar system habitable zone, where alien could exist. </item>
+      	 <item> The planet is too close to its sun, no alien could exist here. </item>
+      	 <item> The planet is too far away from its sun, no alien could exist here. </item>
+      	 
+    </string-array>
+    <string-array name="decMean">
+        
+      	 <item> The planet is located at a distance from it star that correspond to </item>
+      	 <item> times the distance between our Earth and Sun. </item>
+   </string-array>
+
+
+  <string-array name="decFormatdist">
+      	 <item> at a distance of </item>
+      	 <item> lightyears from Earth. </item>
+   </string-array>
+
+
+  <string-array name="planetname">
+      	 <item> The planet is called   </item>
+      	 <item>  and is orbiting the star  </item>
+      	 <item>  that is located in the constellation  </item>
+   </string-array>
+
+			
+ <string-array name="starname">
+      	 <item> The star is called  </item>
+      	 <item>  and is located in the constellation  </item>
+      
+   </string-array>
+
+ <string-array name="orbit">
+      	 <item> It takes  </item>
+      	 <item>  days for the planet to complete an entire revolution around its star. </item>
+   </string-array>
+
+
+<string-array name="mag">
+       <item> The star is visible from Earth with the naked eye. </item>
+       <item> The star can not be seen from Earth without a telescope. </item>
+    </string-array>
+
+
+<string name="moon"> It is possible that the planet can have a habitable moon. </string>
+
+<string-array name="meantemp">
+       <item> The mean temperature of the planet is </item>
+       <item> A hot day at  </item>
+       <item>  the mean temperature is  </item>
+       <item>  ° C and on a cold day at   </item>
+         <item>  it is  </item>
+    </string-array>
+
+<string-array name="habzone">
+       <item> The stars habitable zone is located at a distance between  </item>
+         <item> and </item>
+       <item>  times the distance between Earth and the Sun. </item>
+      
+    </string-array>
+
+
+<string-array name="numberplanets">
+       <item> The star has a known planet that is located in the habitable zone </item>
+       <item> The star has  </item>
+      <item>  known planets and has  </item>
+       <item>  planets located in the habitable zone.  </item>
+       <item>  known planets, but has no known planets that are located in the habitable zone.  </item>
+        <item>  The star has a known planet, but it is not in the habitable zone.  </item>
+    </string-array>
+<string name="disc">  Discovered year: </string>
+<string-array name="color">
+      	 <item> blue </item>
+      	 <item> blue to white </item>
+     	 <item> orange to red </item>
+      	 <item> red </item>
+      </string-array>
+
+
+
+    <string-array name="lum">
+      	 <item> very luminous supergiant </item>
+      	 <item> less luminous supergiant </item>
+     	 <item> luminous giant </item>
+      	 <item> giant </item>
+      	 <item> subgiant </item>
+      	 <item> dwarf </item>
+      	 <item> subdwarf </item>
+      	 <item> white dwarf </item>
+      	 	 <item> pulsar </item>
+      </string-array>  
+         <string name="earth">Earths</string>
+          <string name="sun">Suns</string>
+           <string name="age">billion years</string>
+            <string name="error">Connection Error!</string>
+       <string-array name="type">
+      	 <item> The star has exploded and the only thing that remains are small, heavy and very rapidly rotating celestial objects known as pulsars </item>
+      	 <item> The star has </item>
+     	 <item> color and is of the type  </item>
+      	</string-array> 
+      	
+   <string-array name="constellation">
+    <item>Andromeda</item>
+    <item>Antlia</item>
+    <item>Apus</item>
+    <item>Aquarius</item>
+    <item>Aquila</item>
+    <item>Ara</item>
+	<item>Aries</item>
+    <item>Auriga</item>
+    <item>Boötes</item>
+    <item>Caelum</item>
+    <item>Camelopardalis</item>
+    <item>Cancer</item>
+    <item>Canes Venatici</item>
+	<item>Canis Major</item>
+	<item> Canis Minor</item>
+	<item>Capricornus</item>
+	<item>Carina</item>
+	<item>Cassiopeia</item>
+	<item>Centaurus</item>
+	<item> Cepheus</item>
+	<item>Cetus</item>
+	<item>Chamaeleon</item>
+    <item>Circinus</item>
+	<item>Columba</item>
+	<item>Coma Berenices</item>
+	<item>Corona Austrina</item>
+	<item>Corona Borealis</item>
+	<item>Corvus</item>
+	<item>Crater</item>
+	<item>Crux</item>
+	<item>Cygnus</item>
+	<item>Delphinus</item>
+    <item>Dorado</item>
+    <item>Draco</item>
+    <item>Equuleus</item>
+    <item>Eridanus</item>
+    <item>Fornax</item>
+    <item>Gemini</item>
+    <item>Grus</item>
+    <item>Hercules</item>
+    <item>Horologium</item>
+    <item>Hydra</item>
+    <item>Hydrus</item>
+    <item>Indus</item>
+    <item>Lacerta</item>
+    <item>Leo</item>
+    <item>Leo Minor</item>
+    <item>Lepus</item>
+    <item>Libra</item>
+    <item>Lupus</item>
+    <item>Lynx</item>
+	<item>Lyra</item>
+    <item>Mensa</item>
+    <item>Microscopium</item>
+    <item>Monoceros</item>
+    <item>Musca</item>
+    <item> Norma</item>
+    <item>Octans</item>
+    <item>Ophiuchus</item>
+    <item>Orion</item>
+    <item>Pavo</item>
+	<item>Pegasus</item>
+	<item>Perseus</item>
+	<item>Phoenix</item>
+	<item>Pictor</item>
+	<item>Pisces</item>
+	<item>Piscis Austrinus</item>
+	<item>Puppis</item>
+	<item>Pyxis</item>
+	<item>Reticulum</item>
+	<item>Sagitta</item>
+	<item>Sagittarius</item>
+	<item>Scorpius</item>
+	<item>Sculptor</item>
+	<item>Scutum</item>
+	<item>Serpens</item>
+	<item>Sextans</item>
+	<item>Taurus</item>
+	<item>Telescopium</item>
+	<item>Triangulum</item>
+	<item>Triangulum Australe</item>
+	<item>Tucana</item>
+	<item>Ursa Major</item>
+	<item>Ursa Minor</item>
+	<item>Vela</item>
+	<item>Virgo</item>
+	<item>Volans</item>
+	<item>Vulpecula</item>
+  </string-array>
+    
+    <string-array name="menu">
+   		<item>Planetlist</item>
+       <item>Habitable Planets</item>
+       <item>Constellations</item>
+        <item>Starmap</item>
+		<item>Search</item>
+    </string-array>
+    <string-array name="habmenu">
+   		<item>Habitable Planets</item>
+       	<item>Cold(–50-0°C)</item>
+       	<item>Normal Temperature(0–50°C)</item>
+        <item>Hot(50–100°C)</item>
+		<item>Earth similarity index</item>
+		<item>Suitability for vegetation</item>
+		<item>Candidate for habitable moon</item>
+    </string-array>
+    <string name="show">Show More</string>  
+    <string name="esiratings">Earth similarity index</string>
+<string name="sphratings">Suitability for vegetation</string>
+<string name="massinfo">Mass</string>
+
+<string name="radieinfo">Radius</string>
+
+<string name="densinfo">Density</string>
+<string name="gravinfo">Gravity</string>
+<string name="atmosinfo">Surface pressure</string>
+<string name="flyktinfo">Escape velocity</string>
+<string name="luminfo">Luminositet</string>
+<string name="ageinfo">Age</string>
+<string name="tempinfo"> Temperature </string>
+<string name="Metallinfo">Metallicity</string>  
+<string name="visitplanets">Visit the planets</string>
+<string name="visitsolar">Display the solar system</string>
+<string name="visitcon">Visit the constellation</string>
+<string name="visitstar">Visit the star</string>
+<string name="starlist">Stars in </string>
+
+<string name="nostar">No stars.</string>
+<string name="noplanets">No planets. </string>
+<string name="nodata">No data. </string>
+<string name="habzone">In the habitable zone</string>
+  <string name="solarsystem">Solar system</string>
+   <string name="check3D">3D</string>
+   <string name="check2D">2D</string>
+   <string-array name="ourPlanets">
+    <item>Mercury</item>
+    <item>Venus</item>
+    <item>Tellus</item>
+    <item>Mars</item>
+    <item>Jupiter</item>
+    <item>Saturn</item>
+	<item>Uranus</item>
+    <item>Neptune</item>
+     </string-array>
+     <string name="oursun">Sun</string>
+     <string name="explore">Find Planets</string>
+       <string name="gps">GPS Enabled</string>
+</resources>

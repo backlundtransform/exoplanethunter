@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+	    <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >  
+        
+	        
+	     
+	     
+	     <LinearLayout
+   
+   			 android:layout_width="fill_parent"
+    		 android:layout_height="50dp"
+    		android:background="@drawable/selector_current"
+   			 android:orientation="horizontal"
+    		android:padding="2dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+         android:background="@drawable/selector_current"
+        android:clickable="true"
+    
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+
+            
+            <ImageButton
+                android:id="@+id/bplanet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+               android:background="@drawable/planet"
+               />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+       
+           android:background="@drawable/tab_pressed"
+        android:clickable="false"
+       
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+           
+
+            <ImageButton
+                android:id="@+id/starbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+               android:background="@drawable/fstar"
+               />
+        </LinearLayout>
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+      android:background="@drawable/selector_current"
+        
+         
+        android:clickable="true"
+       
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+           
+
+           <ImageButton
+                android:id="@+id/bviewsolarsystem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+               android:background="@drawable/solar"
+               />
+        </LinearLayout>
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/selector_current"
+        android:clickable="true"
+        
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+           
+
+            <ImageButton
+                android:id="@+id/bconst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+               android:background="@drawable/cons"
+               />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+<ScrollView 
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollHorizontally="false"
+             android:layout_marginTop="50dp"
+             android:layout_marginBottom="50dp"
+ >
+
+    
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|fill_vertical"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/starcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                   />
+
+                <TextView
+                    android:id="@+id/star"
+                
+        			android:ellipsize="none"
+        			android:scrollHorizontally="false"
+					android:maxLines="100"
+           			android:layout_width="match_parent"
+               	    android:layout_height="wrap_content"
+                    android:layout_below="@+id/starcolor"
+                    android:layout_centerHorizontal="true"
+                    android:padding="10dp"
+                    android:text="" />
+                
+                
+        
+
+                <TableLayout
+                    android:id="@+id/StartableLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/star"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="57dp"
+                    android:gravity="fill_horizontal" >
+
+                    <TableRow
+                        android:id="@+id/StartableRow1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" >
+
+                        <TextView
+                            android:id="@+id/StarMass"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/massinfo" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/startableRow2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" >
+
+                        <TextView
+                            android:id="@+id/StarRadie"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/radieinfo" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/StarLuminositet"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" >
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/luminfo" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" >
+
+                        <TextView
+                            android:id="@+id/StarAge"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ageinfo" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow13"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" >
+
+                        <TextView
+                            android:id="@+id/StarTemp"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tempinfo" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" >
+
+                        <TextView
+                            android:id="@+id/StarMetall"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/starhoger_tabell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/StartableLayout"
+                    android:layout_marginLeft="22dp"
+                    android:layout_toRightOf="@+id/StartableLayout" >
+
+                    <TableRow
+                        android:id="@+id/startableRow5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/starmasstextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/startableRow6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/starradieView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/startableRow7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/starluminositettextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/startableRow8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/staragetextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/startableRow9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/startemptextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                        
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/startableRow10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/starmetaltextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+                    </TableRow>
+                </TableLayout>
+
+                    
+
+                      
+
+            </RelativeLayout>
+            
+            
+      
+        </ScrollView>
+     </RelativeLayout>

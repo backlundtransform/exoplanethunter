@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linstarmap" 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         tools:context=".GPS" 
+    android:keepScreenOn="true"
+         >
+
+			<com.varoid.exoplanethunter.Hemisphere 
+              android:id="@+id/starmap" 
+              android:layout_height="wrap_content" 
+              android:layout_width="fill_parent"
+              android:layout_weight="1"/>
+
+          
+          <RelativeLayout
+        	android:id="@+id/linstarmap2" 
+        	android:layout_width="fill_parent"
+        	android:layout_height="225dp"
+        	android:layout_weight="1"
+         >
+         
+              
+              
+		       <com.varoid.exoplanethunter.Compass 
+		           android:id="@+id/mycompass" 
+		           android:layout_height="60dp" 
+		           android:layout_width="60dp"
+		       		android:layout_centerHorizontal="true"
+		       		android:background="@drawable/compass"  />
+		   
+   
+    
+
+    
+			    <TextView
+			      
+			        android:id="@+id/longitude"
+			      android:padding="5dp"
+			           android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        
+			        
+			        android:layout_alignParentLeft="true" 
+			       
+			       
+			        />
+			      <TextView
+			       android:padding="5dp"
+			        android:id="@+id/latitud"
+			      android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			       
+			      android:layout_alignParentRight="true"
+			    	/>
+      
+      
+			       <TextView
+			        android:padding="5dp"
+			        android:id="@+id/azimuth"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			      	android:layout_below="@+id/longitude"
+			        android:layout_alignParentLeft="true" 
+			          />
+			        <TextView
+			         android:padding="5dp"   
+			        android:id="@+id/altitude"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_below="@+id/longitude"
+			        android:layout_alignParentRight="true"
+			       />
+        
+       
+			          <TextView
+			               android:padding="5dp"
+			        android:id="@+id/ra"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			         	android:layout_below="@+id/altitude"
+			        android:layout_alignParentLeft="true"
+			      
+			        />
+			             <TextView
+			          android:padding="5dp"
+			        android:id="@+id/dec"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			       android:layout_below="@+id/azimuth"
+			         android:layout_alignParentRight="true"
+			     
+			        />
+			          <TextView
+			              android:padding="5dp"
+			        android:id="@+id/time"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_below="@+id/mycompass"
+			        android:layout_centerHorizontal="true"
+			       android:textSize="20sp" 
+			        
+			        
+			 />
+			          
+			    
+   					  
+  				</RelativeLayout>
+  				
+  				
+  				</LinearLayout> 
+ 
